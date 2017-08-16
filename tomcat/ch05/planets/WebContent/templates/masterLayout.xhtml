@@ -13,6 +13,7 @@
    <h:body>   
       <div id="heading">
          <ui:insert name="heading">
+         	 <h:outputText value="#{headerViewScoped.tituloHeader}"/>
             <ui:include src="/sections/planetarium/header.xhtml"/>
          </ui:insert>
       </div>

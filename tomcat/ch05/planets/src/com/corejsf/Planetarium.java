@@ -8,7 +8,11 @@ import javax.faces.bean.RequestScoped;
 @ManagedBean // or @Named
 @RequestScoped
 public class Planetarium implements Serializable {
-  private String selectedPlanet;
+  /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+private String selectedPlanet;
   
   public String getSelectedPlanet() { return selectedPlanet; }
   
